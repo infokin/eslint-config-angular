@@ -1,0 +1,37 @@
+{
+  "name": "@infokin/eslint-config-angular",
+  "version": "0.0.0",
+  "description": "Provides a common ESLint configuration for Angular.",
+  "keywords": [
+    "angular",
+    "eslint",
+    "eslint-config"
+  ],
+  "homepage": "https://github.com/infokin/eslint-config-angular#readme",
+  "bugs": {
+    "url": "https://github.com/infokin/eslint-config-angular/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infokin/eslint-config-angular.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Johannes Hillert",
+    "email": "johannes.hillert@infokin.org",
+    "url": "https://www.infokin.org"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@angular-eslint/eslint-plugin": "^15.1.0",
+    "@angular-eslint/eslint-plugin-template": "^15.1.0",
+    "@angular-eslint/template-parser": "^15.1.0",
+    "@infokin/eslint-config-typescript": "^1.1.0",
+    "@infokin/tsconfig": "^1.1.2",
+    "@types/node": "^18.11.13",
+    "eslint": "^8.29.0"
+  }
+}
