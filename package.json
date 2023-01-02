@@ -1,6 +1,6 @@
 {
   "name": "@infokin/eslint-config-angular",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Provides a common ESLint configuration for Angular.",
   "keywords": [
     "angular",
