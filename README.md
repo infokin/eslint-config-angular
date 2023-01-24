@@ -25,10 +25,22 @@ instructions in the terminal. Proceed with the installation of this package, the
 in your project's ESLint configuration file like this:
 
 ```javascript
+"use strict";
+
 module.exports = {
   root: true,
   extends: [
-    '@infokin/eslint-config-angular'
+    "@infokin/eslint-config-angular"
+  ],
+  overrides: [
+    {
+      files: [
+        "*.ts"
+      ],
+      parserOptions: {
+        project: "tsconfig.json"
+      }
+    }
   ]
 }
 ```
