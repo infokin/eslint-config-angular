@@ -29,8 +29,8 @@
     "@angular-eslint/eslint-plugin": "^15.1.0",
     "@angular-eslint/eslint-plugin-template": "^15.1.0",
     "@angular-eslint/template-parser": "^15.1.0",
-    "@infokin/eslint-config-typescript": "^1.1.0",
-    "@infokin/tsconfig": "^1.1.2",
+    "@infokin/eslint-config-typescript": "^1.2.0",
+    "@infokin/tsconfig": "^2.0.0",
     "@types/node": "^18.11.13",
     "eslint": "^8.29.0"
   },
